@@ -7,4 +7,4 @@ factorial.o: factorial.c
 palindrome.o: palindrome.c
 	gcc -c palindrome.c
 clean:
-	rm -rf *.o
+	#rm -rf *.o
