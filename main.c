@@ -2,7 +2,6 @@
 
 void main()
 {
-big();
 factorial();
 palindrome();
 }
