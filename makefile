@@ -1,7 +1,5 @@
-ABCD.exe: main.o big.o factorial.o palindrome.o
-	gcc -o ABCD.exe main.o big.o factorial.o palindrome.o
-big.o: big.c
-	gcc -c big.c
+ABCD.exe: main.o factorial.o palindrome.o
+	gcc -o ABCD.exe main.o factorial.o palindrome.o
 factorial.o: factorial.c
 	gcc -c factorial.c
 palindrome.o: palindrome.c
